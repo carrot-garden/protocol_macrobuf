@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.carrotgarden.a</groupId>
+		<artifactId>carrot-a</artifactId>
+		<version>1.4.21</version>
+		<relativePath />
+	</parent>
+
+	<groupId>protocol_macrobuf</groupId>
+	<artifactId>protocol_macrobuf</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.google.protobuf</groupId>
+			<artifactId>protobuf-java</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.scala-lang</groupId>
+			<artifactId>scala-reflect</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.scala-lang.modules</groupId>
+			<artifactId>scala-xml_${projectScalaVersion}</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.scalautils</groupId>
+			<artifactId>scalautils_${projectScalaVersion}</artifactId>
+		</dependency>
+
+	</dependencies>
+
+</project>
